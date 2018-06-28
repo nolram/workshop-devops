@@ -1,0 +1,43 @@
+Workshop DevOps (Docker/Jenkins/Apiman)
+
+Docker
+	1- Introdução
+		1.a - Docker
+		1.b - Visão Geral
+		1.c - Breve introdução ao Linux
+	2 - Containers
+		2.a - O que são containers?
+		2.b - Containerd
+		2.c - Containers vs VMs
+		2.d - Executando containers
+		2.e - Networks
+		2.f - Ciclo de Vida
+		2.g - Volumes
+		2.h - Logs
+	3- Imagens
+		3.a - O que são imagens de containers?
+		3.b - Dockerfile
+		3.c - Build
+		3.d - Layers
+		3.e - Push/Registry
+	4 - Docker-compose
+		4.a - Visão geral
+		4.b - Configurando
+	5 - Orquestrador de Containers
+		5.a - Introdução
+		5.b - Ferramentas
+		5.c - Visão geral Kubernetes
+
+Jenkins
+	1- Introdução
+		1.a - O que é Jenkins?
+		1.b - CI/CD (Continuous Integration/Continuous Delivery)
+	2- Automatizando
+		2.a - Jobs
+		2.b - Jenkinsfile
+		2.c - Plugins
+
+Apiman
+	1- Introdução
+		1.a - O que é Apiman?
+	2 - Configurando
