@@ -14,3 +14,4 @@ Repositório destinado aos exercícios do Workshop de DevOps.
 - [Spring Boot Docker](https://spring.io/guides/gs/spring-boot-docker/)
 - [Apresentação](https://docs.google.com/presentation/d/1Kw0xBGWtyq87TakXvXw0W0Usu4NETWnCzFyJ_pMVKm4/edit?usp=sharing)
 - [COPY vs ADD Dockerfile](https://stackoverflow.com/a/24958548)
+- [Docker Compose em Produção](https://docs.docker.com/compose/production/)
