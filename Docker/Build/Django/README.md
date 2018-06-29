@@ -20,4 +20,4 @@
     -- POSTGRES_USER
     -- POSTGRES_DB
     -- POSTGRES_HOST
-    -- ENV_DEV
+    -- ENV_DEV=true

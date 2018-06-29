@@ -1,0 +1,24 @@
+version: '3'
+services: 
+  db:
+    image: postgres:latest
+    environment: 
+      - POSTGRES_PASSWORD=mypassword
+      - POSTGRES_USER=mydbuser
+      - POSTGRES_DB=mydb
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '8001:8080'
+    environment: 
+      - POSTGRES_PASSWORD=mypassword
+      - POSTGRES_USER=mydbuser
+      - POSTGRES_DB=mydb
+      - POSTGRES_HOST=db
+      - ENV_DEV=true
+    volumes:
+      - .:/code:Z
+    command: ["./.dev/wait_for_postgres.sh", "/bin/bash", "./.dev/run_web.sh"]
